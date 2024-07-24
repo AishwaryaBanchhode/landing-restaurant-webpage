@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url('background.jpeg');
+    background-size: cover;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+.logo{
+    font-size: 30px;
+    color: red;
+   
+    
+}
+.nav{
+    position: relative;
+    left:-180px ;
+
+}
+a{
+    padding: 5px 15px;
+    color:black ;
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+a:hover{
+    color: skyblue;
+    text-decoration: underline;
+    text-underline-position: under;
+}  
+.search{
+    font-size: 25px;
+}  
+.search i{
+    padding: 5px 20px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding-top:65px ;
+    align-items: center;
+}
+.right{
+    width: 440px;
+    height: 440px;
+    background-image: url(pizza.jpeg);
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.right::before{
+    width: 430px;
+    height: 430px;
+    border: 2px solid red;
+    content: '';
+    position: absolute;
+    border-radius:430px ;
+    padding: 5px;
+}
+button{
+    background-color: transparent;
+    color: black;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px;
+
+}
+ h1{
+    color: black;
+    font-size: 90px;
+    letter-spacing: 1px;
+}
+.SocialMedia{
+    position: absolute;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    flex-direction: row;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 290px;
+
+}
+.SocialMedia i:hover{
+    color: orange;
+}
+
+#food,#fodd2,#food3,#food4,#pizza{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+    
+}
+#food{
+    background-image: url('food.jpeg');
+}
+#fodd2{
+    background-image: url('fodd2.jpeg');
+}
+#food3{
+    background-image: url('food3.jpeg');
+}
+#food4{
+    background-image: url('food4.jpeg');
+}
+#pizza{
+    background-image: url('pizza.jpeg');
+}
+    
+.menu{
+    display: flex;
+    margin: 0px 100px;
+}
